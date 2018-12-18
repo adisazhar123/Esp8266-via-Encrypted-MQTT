@@ -48,7 +48,7 @@ Currently source code for .ino file is untidy and buggy. Fetching key from Redis
 ### Libraries used
 - https://rweather.github.io/arduinolibs/classAES128.html
 - https://github.com/knolleary/pubsubclient
-- https://github.com/adisazhar123/Esp8266-via-Encrypted-MQTT
+- https://github.com/remicaumette/esp8266-redis
 
 License
 ----
