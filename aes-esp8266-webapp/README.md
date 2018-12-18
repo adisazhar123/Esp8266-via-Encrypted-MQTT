@@ -17,6 +17,8 @@ a [Sails v1](https://sailsjs.com) application
 
 This app was originally generated on Thu Dec 13 2018 13:32:25 GMT+0700 (WIB) using Sails v1.0.2.
 
+This is the web app to control LED lights in ESP8266.
+
 <!-- Internally, Sails used [`sails-generate@1.15.28`](https://github.com/balderdashy/sails-generate/tree/v1.15.28/lib/core-generators/new). -->
 
 
