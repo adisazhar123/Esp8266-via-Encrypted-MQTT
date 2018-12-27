@@ -7,7 +7,7 @@
 By [**Adis Azhar**](https://github.com/adisazhar123)
 
 ### Introduction
-This project is to demonstrate sending **encrypted** (AES 128 bit) data  from a Node server via MQTT protocol to a ESP device connected through wifi. On the ESP there are 3 LED lights connected on D5, D6 and D7. One of the lights will turn on if the message passed though gets **decrypted** correctly and compared against a fixed plaintext only the Node server and ESP device know (a contract beforehand).
+This project is to demonstrate sending **encrypted** (AES 128 bit) data  from a Node server via MQTT protocol to a ESP device connected through wifi. On the ESP there are 3 LED lights connected on D5, D6 and D7. One of the lights will turn on if the message passed through gets **decrypted** correctly and compared against a fixed plaintext only the Node server and ESP device know (a contract beforehand).
 
 Each key generated will be different - where it's stored in a Redis datastore. Everytime the ESP receives an MQTT message, it will request the key (where it's regenerated from Node) stored in Redis.
 
